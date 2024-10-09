@@ -7,15 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="Meu_Primeiro_Pacote",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Thiago_Teiji",
+    author_email="thiagotsato@gmail.com",
+    description="Meu primeiro pacote para o desafio proposto pela DIO",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/ttsvr/simple-package-template"
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
 )
