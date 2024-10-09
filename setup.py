@@ -14,7 +14,7 @@ setup(
     description="Meu primeiro pacote para o desafio proposto pela DIO",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ttsvr/simple-package-template"
+    url="https://github.com/ttsvr/simple-package-template",
     packages=find_packages(),
     install_requires=requirements,
 )
